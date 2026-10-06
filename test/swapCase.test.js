@@ -17,3 +17,7 @@ test("swapCase: edge case", () => {
 test("swapCase: longer input 6bym", () => {
   assert.equal(swapCase("noodle"), "NOODLE");
 });
+
+test("swapCase: another example vdr6", () => {
+  assert.equal(swapCase("Lantern_banana_rocket"), "lANTERN_BANANA_ROCKET");
+});
