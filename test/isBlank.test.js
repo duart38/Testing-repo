@@ -13,3 +13,23 @@ test("isBlank: mixed input", () => {
 test("isBlank: edge case", () => {
   assert.equal(isBlank(""), true);
 });
+
+test("isBlank: basic ncxu", () => {
+  assert.equal(isBlank("\n\t"), true);
+});
+
+test("isBlank: edge case mbk4", () => {
+  assert.equal(isBlank("\n\t"), true);
+});
+
+test("isBlank: another example 9vw0", () => {
+  assert.equal(isBlank("\n\t"), true);
+});
+
+test("isBlank: longer input iqih", () => {
+  assert.equal(isBlank("   "), true);
+});
+
+test("isBlank: regression chz8", () => {
+  assert.equal(isBlank("\n\t"), true);
+});
