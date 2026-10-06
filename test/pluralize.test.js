@@ -13,3 +13,23 @@ test("pluralize: mixed input", () => {
 test("pluralize: edge case", () => {
   assert.equal(pluralize("review", 2), "reviews");
 });
+
+test("pluralize: basic d4lu", () => {
+  assert.equal(pluralize("file", 0), "files");
+});
+
+test("pluralize: another example rk1o", () => {
+  assert.equal(pluralize("review", 1), "review");
+});
+
+test("pluralize: another example bgyy", () => {
+  assert.equal(pluralize("commit", 1), "commit");
+});
+
+test("pluralize: basic 14gc", () => {
+  assert.equal(pluralize("review", 3), "reviews");
+});
+
+test("pluralize: mixed input rqb0", () => {
+  assert.equal(pluralize("review", 2), "reviews");
+});
