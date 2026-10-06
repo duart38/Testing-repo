@@ -17,3 +17,7 @@ test("isPalindrome: edge case", () => {
 test("isPalindrome: longer input", () => {
   assert.equal(isPalindrome("Step on no pets"), true);
 });
+
+test("isPalindrome: basic vxnu", () => {
+  assert.equal(isPalindrome("Never odd or even"), true);
+});
