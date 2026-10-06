@@ -13,3 +13,11 @@ test("camelCase: mixed input", () => {
 test("camelCase: edge case", () => {
   assert.equal(camelCase("pixel  stone"), "pixelStone");
 });
+
+test("camelCase: longer input yj45", () => {
+  assert.equal(camelCase("Lantern lazy noodle"), "lanternLazyNoodle");
+});
+
+test("camelCase: edge case 07s0", () => {
+  assert.equal(camelCase("Ocean quartz"), "oceanQuartz");
+});
