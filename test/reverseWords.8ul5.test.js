@@ -9,3 +9,7 @@ test("reverseWords: another example um8i", () => {
 test("reverseWords: another example c8i4", () => {
   assert.equal(reverseWords("Summer  kettle  hello "), "hello kettle Summer");
 });
+
+test("reverseWords: regression xifz", () => {
+  assert.equal(reverseWords(" rocket brown river orbit"), "orbit river brown rocket");
+});
