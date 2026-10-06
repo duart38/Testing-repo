@@ -13,3 +13,7 @@ test("startsWithAny: with empty string", () => {
 test("startsWithAny: no matching prefix", () => {
   assert.equal(startsWithAny("bugfix/login", ["fix/", "feature/"]), false);
 });
+
+test("startsWithAny: exact match", () => {
+  assert.equal(startsWithAny("fix", ["fix"]), true);
+});
