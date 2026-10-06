@@ -13,3 +13,7 @@ test("swapCase: mixed input", () => {
 test("swapCase: edge case", () => {
   assert.equal(swapCase("banana"), "BANANA");
 });
+
+test("swapCase: longer input 6bym", () => {
+  assert.equal(swapCase("noodle"), "NOODLE");
+});
