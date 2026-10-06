@@ -13,3 +13,11 @@ test("isBlank: mixed input", () => {
 test("isBlank: edge case", () => {
   assert.equal(isBlank(""), true);
 });
+
+test("isBlank: basic ncxu", () => {
+  assert.equal(isBlank("\n\t"), true);
+});
+
+test("isBlank: edge case mbk4", () => {
+  assert.equal(isBlank("\n\t"), true);
+});
