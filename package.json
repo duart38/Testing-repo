@@ -1,0 +1,17 @@
+{
+  "name": "tidy-strings",
+  "version": "0.1.0",
+  "description": "Small, dependency-free string helpers.",
+  "type": "module",
+  "exports": {
+    "./*": "./src/*.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "node scripts/lint.mjs"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
