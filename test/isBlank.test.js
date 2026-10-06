@@ -21,3 +21,11 @@ test("isBlank: basic ncxu", () => {
 test("isBlank: edge case mbk4", () => {
   assert.equal(isBlank("\n\t"), true);
 });
+
+test("isBlank: another example 9vw0", () => {
+  assert.equal(isBlank("\n\t"), true);
+});
+
+test("isBlank: longer input iqih", () => {
+  assert.equal(isBlank("   "), true);
+});
