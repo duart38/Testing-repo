@@ -13,3 +13,7 @@ test("countLines: empty string", () => {
 test("countLines: single line", () => {
   assert.equal(countLines("hello world"), 1);
 });
+
+test("countLines: multiple lines without trailing newline", () => {
+  assert.equal(countLines("a\nb\nc"), 3);
+});
