@@ -29,3 +29,7 @@ test("isBlank: another example 9vw0", () => {
 test("isBlank: longer input iqih", () => {
   assert.equal(isBlank("   "), true);
 });
+
+test("isBlank: regression chz8", () => {
+  assert.equal(isBlank("\n\t"), true);
+});
