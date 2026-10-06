@@ -21,3 +21,7 @@ test("pluralize: basic d4lu", () => {
 test("pluralize: another example rk1o", () => {
   assert.equal(pluralize("review", 1), "review");
 });
+
+test("pluralize: another example bgyy", () => {
+  assert.equal(pluralize("commit", 1), "commit");
+});
