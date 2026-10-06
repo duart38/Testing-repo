@@ -13,3 +13,7 @@ test("normalizeNewlines: empty string", () => {
 test("normalizeNewlines: already normalized", () => {
   assert.equal(normalizeNewlines("a\nb\nc"), "a\nb\nc");
 });
+
+test("normalizeNewlines: windows only", () => {
+  assert.equal(normalizeNewlines("x\r\ny\r\nz"), "x\ny\nz");
+});
