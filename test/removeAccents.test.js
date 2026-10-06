@@ -9,3 +9,7 @@ test("removeAccents: basic", () => {
 test("removeAccents: mixed input", () => {
   assert.equal(removeAccents("Crème brûlée"), "Creme brulee");
 });
+
+test("removeAccents: longer input 727o", () => {
+  assert.equal(removeAccents("Ångström"), "Angstrom");
+});
