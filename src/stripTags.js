@@ -1,3 +1,3 @@
 export function stripTags(input) {
-  return input.replace(/<[^>]*>/, "");
+  return input.replace(/<[^>]*>/g, "");
 }
