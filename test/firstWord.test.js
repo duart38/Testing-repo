@@ -13,3 +13,7 @@ test("firstWord: empty string", () => {
 test("firstWord: only whitespace", () => {
   assert.equal(firstWord("   "), "");
 });
+
+test("firstWord: single word", () => {
+  assert.equal(firstWord("hello"), "hello");
+});
