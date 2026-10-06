@@ -17,3 +17,7 @@ test("snakeCase: edge case", () => {
 test("snakeCase: longer input", () => {
   assert.equal(snakeCase("XMLHttpRequest"), "xmlhttp_request");
 });
+
+test("snakeCase: basic cdx4", () => {
+  assert.equal(snakeCase("parseHtmlString"), "parse_html_string");
+});
