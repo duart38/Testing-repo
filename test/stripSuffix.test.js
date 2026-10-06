@@ -13,3 +13,7 @@ test("stripSuffix: empty string input", () => {
 test("stripSuffix: suffix not present", () => {
   assert.equal(stripSuffix("document.pdf", ".txt"), "document.pdf");
 });
+
+test("stripSuffix: entire string is suffix", () => {
+  assert.equal(stripSuffix(".txt", ".txt"), "");
+});
