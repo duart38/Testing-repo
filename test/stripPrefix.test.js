@@ -13,3 +13,7 @@ test("stripPrefix: empty string input", () => {
 test("stripPrefix: prefix not present", () => {
   assert.equal(stripPrefix("hello", "goodbye"), "hello");
 });
+
+test("stripPrefix: prefix is entire string", () => {
+  assert.equal(stripPrefix("test", "test"), "");
+});
