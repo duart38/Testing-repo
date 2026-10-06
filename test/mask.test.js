@@ -13,3 +13,7 @@ test("mask: mixed input", () => {
 test("mask: edge case", () => {
   assert.equal(mask("947880855455", 5), "*******55455");
 });
+
+test("mask: basic 8xqe", () => {
+  assert.equal(mask("210185478045", 4), "********8045");
+});
