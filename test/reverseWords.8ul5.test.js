@@ -5,3 +5,7 @@ import { reverseWords } from "../src/reverseWords.js";
 test("reverseWords: another example um8i", () => {
   assert.equal(reverseWords("river quick velvet velvet "), "velvet velvet quick river");
 });
+
+test("reverseWords: another example c8i4", () => {
+  assert.equal(reverseWords("Summer  kettle  hello "), "hello kettle Summer");
+});
